@@ -21,7 +21,7 @@ function App() {
     <div>
        <h1>React ES6 Lab</h1>
 
-       {isLoggedIn ? <p>Welcome Back!</p> : <p>Please log in</p>}
+       {isLoggedIn ? <p>Welcome Back, User!</p> : <p>Please log in</p>}
        
        <p>Name: {name}</p>
        <p>Age: {age}</p>
